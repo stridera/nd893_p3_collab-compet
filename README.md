@@ -47,7 +47,7 @@ This is the second project in the Udacity [Deep Reinforcement Learning Nanodegre
 
       ```bash
       python play.py # Runs the final.pth model with default params.
-      python play.py --env tennis-env/ --model_path models/final --fps 10 # Run the final model at 10 frames per second.
+      python play.py --env tennis-env/ --model_path models/final --min_steps 300 #Play at least 300 steps even if the env ends sooner.
       ```
 
 Side Quest:
